@@ -1,9 +1,7 @@
 <template>
     <header class="container-fluid">
         <div class="row align-items-center">
-            <h1 class="col-2">
-                L
-                <hide-at breakpoint="small">EOFLIX</hide-at>
+            <h1 class="col-2">L<hide-at breakpoint="small">EOFLIX</hide-at>
             </h1>
             <form class="col-10 text-align-right search">
                 <input v-model="searchText" type="text" placeholder="Cerca film o serie tv">

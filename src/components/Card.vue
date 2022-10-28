@@ -46,6 +46,7 @@ export default {
 <style lang="scss" scoped>
 .card {
     & {
+        transition: all 1s;
         padding: 10px;
         cursor: pointer;
     }
