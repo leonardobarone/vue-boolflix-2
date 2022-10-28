@@ -7,7 +7,7 @@
             </h1>
             <form class="col-10 text-align-right search">
                 <input v-model="searchText" type="text" placeholder="Cerca film o serie tv">
-                <button type="submit" @click.prevent="$emit('searching', searchText)">Cerca</button>
+                <button class="btn" type="submit" @click.prevent="$emit('searching', searchText)">Cerca</button>
             </form>
         </div>
     </header>
@@ -51,8 +51,6 @@ header {
         button {
             color: white;
             border: 1px solid white;
-            background-color: var(--nero);
-            cursor: pointer;
         }
     
     }

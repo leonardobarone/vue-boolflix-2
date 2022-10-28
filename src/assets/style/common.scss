@@ -16,3 +16,9 @@ body {
     font-family: 'Dosis', sans-serif;
     background-color: var(--nero);
 }
+
+button.btn {
+    background-color: var(--nero);
+    cursor: pointer;
+    padding: 5px;
+}
