@@ -1,0 +1,18 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+@import './my_bootstrap';
+
+
+// Reset
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    background-color: var(--nero);
+}
